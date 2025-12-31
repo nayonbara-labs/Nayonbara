@@ -1,4 +1,7 @@
-modulefig: {
+global.uptLive = global.uptLive || {};
+
+module.exports = {
+  config: {
     name: "upt",
     aliases: ["uptime"],
     version: "1.4.0",
