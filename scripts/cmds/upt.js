@@ -59,6 +59,4 @@ module.exports = {
         );
       } catch {
         clearInterval(global.uptLive[tid]);
-        delete global.uptLive[tid];
-      }
-    }module
+        delete global.uptLive[tid]module
