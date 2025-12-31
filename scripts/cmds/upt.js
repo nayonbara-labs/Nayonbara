@@ -1,5 +1,4 @@
-module.exports = {
-  config: {
+modulefig: {
     name: "upt",
     aliases: ["uptime"],
     version: "1.4.0",
@@ -59,4 +58,8 @@ module.exports = {
         );
       } catch {
         clearInterval(global.uptLive[tid]);
-        delete global.uptLive[tid]module
+        delete global.uptLive[tid];
+      }
+    }, 1000);
+  }
+};
